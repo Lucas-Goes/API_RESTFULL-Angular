@@ -1,0 +1,5 @@
+package com.ensinei.comercial.repository;
+
+public interface OportunidadeRepository {
+
+}

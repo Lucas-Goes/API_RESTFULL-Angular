@@ -1,0 +1,7 @@
+package com.ensinei.comercial.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface OportunidadeRepository extends JpaRepository<Oportunidade, Long> {
+
+}
