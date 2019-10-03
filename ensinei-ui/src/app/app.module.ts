@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
+import {TableModule} from 'primeng/table';
+
 import { AppComponent } from './app.component';
 import { PainelNegociacaoComponent } from './painel-negociacao/painel-negociacao.component';
 
@@ -14,7 +16,9 @@ import { PainelNegociacaoComponent } from './painel-negociacao/painel-negociacao
   imports: [
     BrowserModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+
+    TableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
