@@ -11,8 +11,13 @@ apiUrl = 'http://localhost:8080/oportunidades';
 constructor(private httpClient: HttpClient){}
 
 listar (){
-return this.httpClient.get(this.apiUrl);
 
+  return this.httpClient.get(this.apiUrl);
+
+}
+
+adicioinar(oportunidade: any){
+  return this.httpClient.post(this.apiUrl, oportunidade);
 }
 
 }
