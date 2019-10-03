@@ -1,8 +1,0 @@
-package com.ensinei.comercial.controller;
-
-public class OportunidadeController {
-
-	public String listar() {
-		return "Hello";		
-	}
-}
